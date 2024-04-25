@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: -5%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.brand-logo {
+  height: 100px;
+  margin-left: -9%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.list-login{
+  list-style: none;
+}
+.list-login img{ 
+  margin-bottom: -20%;
+}
+
+.brand-logo-login {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.nav-list .under a{
+text-decoration: underline;
+font-weight: 700;
+}
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-list a:hover {
+  color: #000;
+}
+
+
+/* End */
+
+.img-main {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 15px;
+  width: 45%;
+}
+
+.main h1 {
+  margin-left: 5%;
+}
+
+.main p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Footer section start*/
+.footer{
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  bottom: 0px;
+  width: 100%;
+  background: #ADCDF1;
+  color: #000;
+  
+}
+.main-content{
+  display: flex;
+}
+.main-content .center h1{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.place i span{
+  font-family: 'Poppins', sans-serif;
+}
+.footer-logo{
+  height: 80px;
+  margin-left: -9%;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 15px 20px;
+}
+.left{
+  margin-left: 5% ;
+}
+.center{
+  margin-left: 20%;
+  
+}
+.right{
+  margin-left: 27%;
+}
+/* yang di ubah  */
+.footer-content p{
+  margin-right: -70%;
+}
+
+.social a img{
+  margin-right: -60%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  transition: .5s;
+}
+
+.box .footer-content{
+  margin: 20px 0 0 0;
+}
+.center .content .place{
+  margin: 20px 0 0 0 ;
+} 
+.right .content .social{
+  margin: 20px 0 0 0 ;
+} 
+
+/* Footer End */

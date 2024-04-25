@@ -1,0 +1,336 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: -5%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.brand-logo {
+  height: 100px;
+  margin-left: -9%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.list-login{
+  list-style: none;
+}
+.list-login img{ 
+  margin-bottom: -20%;
+}
+
+.brand-logo-login {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.nav-list .under a{
+text-decoration: underline;
+font-weight: 700;
+}
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-list a:hover {
+  color: #000;
+}
+
+
+/* End */
+
+
+/* Home section Start */
+.Home {
+  display: flex;
+  align-items: center;
+  background-color: #4b96ec;
+  padding-top: 100px; /* Adjusted padding-top */
+  flex-direction: row-reverse; /* Gambar di sebelah kanan */
+}
+
+.img {
+  width: 80%; /* Mengisi lebar gambar */
+  margin-left: 10%;
+}
+
+.content {
+  text-align: center;
+  width: 50%; 
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.content .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.learn-more-btn:hover {
+  background-color: #333;
+}
+/* Home section End */
+
+/* Insight section Start */
+.heading {
+  text-align: center;
+  padding: 34px 0;
+  padding-bottom: 48px;
+  font-size: 40px;
+  color: #1d1a1a;
+}
+
+.Insight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 90px;
+}
+
+.insight-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insight-img .insight-card{
+  flex: 1;
+  margin: 20px 20px;
+}
+.insight-img .insight-card img{
+  width: 300px;
+  height: auto;
+}
+/* Insight section End */
+
+
+/* Blog section Start */
+/* Blog section Start */
+.heading-blog {
+  text-align: center;
+  padding: 34px 0;
+  padding-bottom: 48px;
+  font-size: 40px;
+  color: #1d1a1a;
+}
+
+.Blog{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.cardb{
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+  margin: 20px;
+}
+
+.cardb img{
+  width: 100%;
+  height: auto;
+}
+
+.cardb-content{
+  padding: 16px;
+  
+}
+
+.cardb-content h3{
+  font-size: 29px;
+  margin-bottom: 8px;
+}
+
+.cardb-content p{
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.cardb-content .btn-blog{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btn-blog-view-all{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 45%;
+ 
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  border-radius: 70px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-blog-view-alll{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 70px;
+  color: #000000;
+} 
+/* Blog section end */
+
+/* powered section start */
+.Powered {
+  display: flex;
+  align-items: center;
+  background-color: #4b96ec;
+  padding-top: 50px; /* Adjusted padding-top */
+  margin-top: 200px;
+  margin-bottom: 100px;
+  
+}
+
+.Powered-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Powered-img img{
+  width: 50%;
+}
+/* powered section end */
+
+
+/* Footer section start*/
+.footer{
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  bottom: 0px;
+  width: 100%;
+  background: #ADCDF1;
+  color: #000;
+  
+}
+.main-content{
+  display: flex;
+}
+.main-content .center h1{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.place i span{
+  font-family: 'Poppins', sans-serif;
+}
+.footer-logo{
+  height: 80px;
+  margin-left: -9%;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 15px 20px;
+}
+.left{
+  margin-left: 5% ;
+}
+.center{
+  margin-left: 20%;
+  
+}
+.right{
+  margin-left: 27%;
+}
+/* yang di ubah  */
+.footer-content p{
+  margin-right: -70%;
+}
+
+.social a img{
+  margin-right: -60%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  transition: .5s;
+}
+
+.box .footer-content{
+  margin: 20px 0 0 0;
+}
+.center .content .place{
+  margin: 20px 0 0 0 ;
+} 
+.right .content .social{
+  margin: 20px 0 0 0 ;
+} 
+
+/* Footer End */
